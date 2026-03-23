@@ -1,0 +1,12 @@
+{
+  "title": "Dog House",
+  "price": 7000000,
+  "lowRange": 5000000,
+  "highRange": 11000000,
+  "bedroomsLabel": "3+",
+  "bedrooms": "3",
+  "sqft": 2000,
+  "bathrooms": 2,
+  "city": "Dallas",
+  "garages": 2
+}
