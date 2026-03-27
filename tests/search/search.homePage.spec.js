@@ -36,7 +36,8 @@ test.describe('Search Home Page', () => {
       listingData.highRange,
     );
     const actualPrice = await homePage.getPrice();
-    expect(listingData.price).toBeGreaterThanOrEqual(actualPrice);
+    expect(actualPrice).toBeGreaterThanOrEqual(listingData.lowRange);
+    expect(actualPrice).toBeLessThanOrEqual(listingData.highRange);
   });
 
   test('Search by city', async ({ page }) => {
