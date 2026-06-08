@@ -51,7 +51,6 @@ class HomePage {
     let bedrooms = await this.bedroomsLabel.textContent();
     bedrooms = bedrooms.split(':').at(1).trim();
     parseInt(bedrooms);
-    console.log(bedrooms);
     return bedrooms;
   }
 

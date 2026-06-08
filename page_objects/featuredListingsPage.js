@@ -44,9 +44,7 @@ class FeaturedListingsPage {
 
   async getBedroomsCount() {
     let bedrooms = await this.bedroomsLabel.textContent();
-    console.log(bedrooms);
     bedrooms = bedrooms.split(':').at(1).trim();
-    console.log(bedrooms);
     return bedrooms;
   }
 
